@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url(./fonts/Manrope-VariableFont_wght.ttf) format('truetype');
+}
+
+body {
+  font-family: 'Manrope';
+  background-color: hsl(218, 23%, 16%);
+}
+
+#advise {
+  color: hsl(193, 38%, 86%);
+}
+
+.card {
+  background-color: hsl(217, 19%, 24%);
+  color: hsl(150, 100%, 66%);
+  position: relative;
+  width: 50%;
+}
+
+.card-title {
+  font-size: 0.8rem;
+  margin: 1rem 0 1rem 0;
+  letter-spacing: 0.2rem;
+}
+
+.card-text {
+  font-size: 1.75rem;
+  margin: 0 0 1rem 0;
+}
+
+.card-devider {
+    left: 0;
+      right: 0;
+      margin: auto;
+      width: 100%;
+  margin: 1rem 0 3rem 0;
+}
+
+.icon-container {
+  position: absolute;
+  background-color: hsl(150, 100%, 66%);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  bottom: -1.2rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.icon-container:hover {
+  box-shadow: 0 0 10px hsl(150, 100%, 66%), 0 0 40px hsl(150, 100%, 66%), 0 0 80px hsl(150, 100%, 66%);
+  cursor: pointer;
+}
+
+.card-icon {
+  background-color:hsl(150, 100%, 66%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.attribution {
+  margin-top: 2rem;
+  font-size: 11px;
+  text-align: center;
+  color: #fff
+}
+
+.attribution a {
+  color: hsl(227, 20%, 73%);
+}
+
+@media only screen and (max-width: 425px) {
+  .card {
+    width: 100%
+  }
+}
